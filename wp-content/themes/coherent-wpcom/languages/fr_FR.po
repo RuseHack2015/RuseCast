@@ -1,0 +1,237 @@
+# Translation of Coherent in French (France)
+# This file is distributed under the same license as the Coherent package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-04-22 17:37:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Coherent\n"
+
+#: single.php:23
+msgid "Previous: "
+msgstr "Précédent&nbsp;:"
+
+#: single.php:24
+msgid "Previous post:"
+msgstr "Article précédent :"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/coherent/style.css
+msgid "Coherent is a simple, structured theme with full screen featured images and a sliding panel sidebar."
+msgstr ""
+
+#: single.php:20
+msgid "Next: "
+msgstr "Suivant:"
+
+#: single.php:21
+msgid "Next post:"
+msgstr "Article Suivant:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: inc/template-tags.php:164
+msgid "Archives"
+msgstr "Archives"
+
+#: inc/template-tags.php:158
+msgid "Archives: %s"
+msgstr "Archives&nbsp;: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:162
+msgid "%1$s: %2$s"
+msgstr "%1$s&nbsp;: %2$s"
+
+#: inc/template-tags.php:152
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:155
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Apartés"
+
+#: inc/template-tags.php:152
+msgid "Day: %s"
+msgstr "Jour: %s"
+
+#: inc/template-tags.php:150
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:150
+msgid "Month: %s"
+msgstr "Mois: %s"
+
+#: inc/template-tags.php:148
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:148
+msgid "Year: %s"
+msgstr "Ann&eacute;e: %s"
+
+#: inc/template-tags.php:146
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: inc/template-tags.php:142
+msgid "Category: %s"
+msgstr "Cat&eacute;gorie: %s"
+
+#: inc/template-tags.php:144
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:121
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: inc/template-tags.php:121
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: inc/template-tags.php:121
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: inc/template-tags.php:109
+msgid "Posted in %1$s"
+msgstr "Posté dans %1$s"
+
+#: inc/template-tags.php:115
+msgid "Tagged %1$s"
+msgstr "Tagu&eacute; %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: inc/template-tags.php:75
+msgid "Featured:"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:107 inc/template-tags.php:113
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:31
+msgid "Previous"
+msgstr "Précédent"
+
+#: inc/template-tags.php:27
+msgid "Next"
+msgstr "Suivant"
+
+#: inc/extras.php:52
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Navigation des articles"
+
+#: header.php:26
+msgid "Show"
+msgstr "Afficher"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Noticia Text, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:134
+msgctxt "Noticia Text font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Aller au contenu principal"
+
+#: functions.php:88
+msgid "Sidebar"
+msgstr "Colonne latérale"
+
+#: functions.php:59
+msgid "Social Links Menu"
+msgstr "Menu des Liens Sociaux"
+
+#: footer.php:16
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème %1$s par %2$s."
+
+#: functions.php:58
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: footer.php:14
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: footer.php:14
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-page.php:47 inc/template-tags.php:125
+msgid "Edit"
+msgstr "Modifier"
+
+#: content-page.php:40 content-single.php:37
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Contenu Introuvable. Voulez-vous lancer une recherche?"
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Contenu Introuvable. Réessayez en modifiant les termes de recherche."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pr&ecirc;t &agrave; publier votre premier article ? <a href=\"%1$s\">Allons-y !</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Aucun Résultat"
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:38 comments.php:60
+msgid "Older Comments"
+msgstr "Commentaires Précédents"
+
+#: comments.php:39 comments.php:61
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:35 comments.php:57
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une r&eacute;flexion sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s r&eacute;flexions sur &ldquo;%2$s&rdquo;"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Contenu Introuvable. L'outil de Recherche ou les Liens ci-dessous vous remettront peut-être sur la voie&hellip;"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups ! Cette page est introuvable."

@@ -1,0 +1,375 @@
+/*
+Theme Name: Coherent
+Theme URI: http://wordpress.com/themes/coherent/
+Author: Automattic
+Author URI: http://wordpress.com/themes
+Description: Coherent is a simple, structured theme with full screen featured images and a sliding panel sidebar.
+Version: 1.0.2-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: coherent
+Tags: blue, white, light, one-column, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, infinite-scroll, rtl-language-support, site-logo, sticky-post, translation-ready, blog, design, journal, news, photoblogging, photography, travel, clean, contemporary, elegant, light, minimal, modern, professional, simple
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Coherent is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Keyframes
+# Typography
+# Layout
+# Elements
+# Forms
+# Navigation
+# Accessibility
+# Alignments
+# Clearings
+# Content
+# Widgets
+# Infinite scroll
+# Media
+# Media Queries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Keyframes
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+h1.site-title {
+	margin: 0 0 0 20px;
+}
+
+h1.site-title a,
+.feature-header h1.entry-title {
+	margin: 0 0 0 20px;
+}
+
+blockquote {
+	padding: 0 20px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+.site-footer,
+.nav-links,
+.entry-wrapper,
+.page-header {
+	margin: 40px auto 0 0;
+}
+
+.header-inner {
+	margin: 0 auto 40px 0;
+}
+
+.menu-toggle .genericon {
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.action-text:before {
+	margin: 0 0 0 10px;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+ul,
+ol {
+	margin: 0 10px 10px 0;
+}
+
+li > ul,
+li > ol {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+th {
+	text-align: right;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+button.menu-toggle {
+	right: auto;
+	left: 0;
+}
+
+textarea {
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+
+.comment-content a::after,
+.entry-content a::after,
+.entry-header a::after,
+.entry-footer a::after,
+.comment-respond a::after,
+.site-footer a::after {
+	right: 0;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+
+.main-navigation ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.main-navigation ul ul li a {
+	padding: 10px 40px 10px 20px;
+}
+
+.main-navigation ul ul ul li a {
+	padding: 10px 60px 10px 20px;
+}
+
+.main-navigation ul ul ul ul li a {
+	padding: 10px 80px 10px 20px;
+}
+
+.showsub-toggle {
+	left: 0;
+	right: auto;
+}
+
+.showsub-toggle:after {
+	left: 11px;
+	right: auto;
+}
+
+.menu-toggle .genericons {
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.social-links ul {
+	padding: 20px 10px 0 0;
+}
+
+.social-links ul:last-of-type {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+	right: 5px;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignright {
+	float: right;
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+
+.entry-content {
+	text-align: right;
+}
+
+.entry-footer {
+	text-align: right;
+}
+
+.posted-on,
+.sticky-post {
+	padding: 5px 0 10px 10px;
+}
+
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+
+ol.comment-list .comment-author img.avatar {
+	float: right;
+	margin: 5px 0 5px 10px;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.widget_archive ul ul,
+.widget_categories ul ul,
+.widget_links ul ul,
+.widget_meta ul ul,
+.widget_nav_menu ul ul,
+.widget_pages ul ul,
+.widget_recent_comments ul ul,
+.widget_recent_entries ul ul {
+	margin: 10px 10px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+
+span.infinite-loader {
+	float: left;
+	text-align: right;
+}
+
+span.infinite-loader .spinner {
+	right: 10px !important;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+
+/* Make sure embeds and iframes fit their containers. */
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+
+.wp-caption img[class*="wp-image-"] {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Media queries
+--------------------------------------------------------------*/
+@media only screen and (min-width: 40.063em) {
+
+}
+
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 50em) {
+
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 50em) {
+
+/* Make sure embeds and iframes fit their containers. */
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+
+.wp-caption img[class*="wp-image-"] {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Media queries
+--------------------------------------------------------------*/
+@media only screen and (min-width: 40.063em) 
+
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 50em) 
+}
+
+@media only screen and (min-width: 64.063em) {
+
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 50em) 
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 50em) {
+
+/* Make sure embeds and iframes fit their containers. */
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+
+.wp-caption img[class*="wp-image-"] {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Media queries
+--------------------------------------------------------------*/
+@media only screen and (min-width: 40.063em) 
+
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 50em) 
+}
+
+}
+
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */
